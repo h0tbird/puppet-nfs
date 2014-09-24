@@ -1,7 +1,8 @@
 class nfs (
 
-  $version = 'latest',
   $ensure  = 'running',
+  $enable  = true,
+  $version = 'latest',
 
 ) {
 
