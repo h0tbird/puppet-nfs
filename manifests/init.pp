@@ -3,6 +3,7 @@ class nfs (
   $ensure  = 'running',
   $enable  = true,
   $version = 'latest',
+  $exports = [],
 
 ) {
 
